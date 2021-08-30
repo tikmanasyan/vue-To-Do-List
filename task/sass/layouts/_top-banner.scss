@@ -1,0 +1,54 @@
+.top-banner {
+    height:173px; 
+    .top-root {
+        display:flex;
+        justify-content: space-between; 
+        padding-top:34px;
+       
+        .left {
+            display: flex;
+
+            .logo {
+                margin-right:69px;
+            } 
+            .search {
+                width:557px;
+                height:48px;
+                border-radius:5px;
+                border:1px solid #DFDFDF;
+                padding:16px 29px 13px 19px; 
+                display: flex;
+                justify-content: space-between;
+                margin-left:69px;
+                &>input {
+                    border:none;
+                    font:14px $fontRbobtoL;
+                    color:#686868;
+                    width:90%;
+                    outline:none;
+                    background:transparent;
+                }
+                &>img {
+                    cursor:pointer;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            padding-top: 14px; 
+            &>div img {
+                cursor: pointer;
+            }
+            &> .like {
+                margin-right:30px;
+            }
+            &> .user { 
+                margin-right:30px;
+            }
+            &> .cart {
+                margin-left:15px;
+            }
+        }
+    }
+}

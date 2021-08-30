@@ -1,0 +1,27 @@
+nav { 
+    margin-top:28.5px;
+    border-top:1px solid #707070;
+    .root-nav {
+        display: flex;
+        #drop-down { 
+            border:1px solid #EFEFEF;
+            background-color:#F8F8F8;
+            margin-top:10px; 
+            display: inline-block;
+            border-radius: 8px;
+    
+            .humburger {
+                padding:16px;
+                display: inline-block;
+                cursor: pointer;
+    
+            }
+    
+            .arrow { 
+                padding:22px 16px 17px 38px;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }
+    }     
+}

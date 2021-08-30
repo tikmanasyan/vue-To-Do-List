@@ -1,0 +1,23 @@
+.menu {
+
+    ul {
+        display:flex;
+        list-style-type: none;
+        margin-left:50px;
+        li {
+
+            a {
+                font:14px $fontRbobtoR;
+                text-decoration:none;
+                display: inline-block;
+                padding:24px 22px;
+                line-height: 32px;
+                color:#302F2F;
+            }
+            &[class='active'] a {
+                color:#FF4F04;
+                border-bottom:3px solid #FF4F04;
+            }
+        }
+    }
+}

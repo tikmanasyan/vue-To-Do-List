@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1168px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.top-banner {
+  height: 173px;
+}
+.top-banner .top-root {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+}
+.top-banner .top-root .left {
+  display: flex;
+}
+.top-banner .top-root .left .logo {
+  margin-right: 69px;
+}
+.top-banner .top-root .left .search {
+  width: 557px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #DFDFDF;
+  padding: 16px 29px 13px 19px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 69px;
+}
+.top-banner .top-root .left .search > input {
+  border: none;
+  font: 14px RobotoLight;
+  color: #686868;
+  width: 90%;
+  outline: none;
+  background: transparent;
+}
+.top-banner .top-root .left .search > img {
+  cursor: pointer;
+}
+.top-banner .top-root .right {
+  display: flex;
+  padding-top: 14px;
+}
+.top-banner .top-root .right > div img {
+  cursor: pointer;
+}
+.top-banner .top-root .right > .like {
+  margin-right: 30px;
+}
+.top-banner .top-root .right > .user {
+  margin-right: 30px;
+}
+.top-banner .top-root .right > .cart {
+  margin-left: 15px;
+}
+
+nav {
+  margin-top: 28.5px;
+  border-top: 1px solid #707070;
+}
+nav .root-nav {
+  display: flex;
+}
+nav .root-nav #drop-down {
+  border: 1px solid #EFEFEF;
+  background-color: #F8F8F8;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 8px;
+}
+nav .root-nav #drop-down .humburger {
+  padding: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+nav .root-nav #drop-down .arrow {
+  padding: 22px 16px 17px 38px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 50px;
+}
+.menu ul li a {
+  font: 14px RobotoRegular;
+  text-decoration: none;
+  display: inline-block;
+  padding: 24px 22px;
+  line-height: 32px;
+  color: #302F2F;
+}
+.menu ul li[class=active] a {
+  color: #FF4F04;
+  border-bottom: 3px solid #FF4F04;
+}
+
+/*# sourceMappingURL=style.css.map */
